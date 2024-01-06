@@ -21,7 +21,9 @@ button {
 }
 header > section {
   height: 808px;
-  background: url("./images/banner/banner1.png"), lightgray no-repeat;
+  background: url("./images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header-container {
   float: right;
